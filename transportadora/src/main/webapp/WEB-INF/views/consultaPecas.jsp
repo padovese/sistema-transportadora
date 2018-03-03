@@ -17,4 +17,4 @@ Consulta de peças.
 	</table>
 
 
-<%@include file="/WEB-INF/architecture/header.jsp" %>
+<%@include file="/WEB-INF/architecture/footer.jsp" %>
