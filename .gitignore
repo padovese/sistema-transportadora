@@ -51,6 +51,7 @@ Temporary Items
 .recommenders
 *.xml
 *.iml
+!pom.xml
 
 # ignore an entire directory
 /doc/
