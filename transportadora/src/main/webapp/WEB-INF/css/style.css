@@ -13,7 +13,7 @@ footer {
 	text-align: center;
 	padding: 10px;
 	width:100%;
-	font-style: italic;
+	font-style:italic;
 	font-size:14px;
     bottom:0;
     left:0;
@@ -28,13 +28,12 @@ footer {
 	font-style: italic;
 	font-size:12px;  
 }
-
 header{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqMMk6uJ6IjxP8OFdH_XuM9GM8_Mc7p3Qdqwkb71kr4NFlml_");
 }
 
 #preheader{
-	background-color:white;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqMMk6uJ6IjxP8OFdH_XuM9GM8_Mc7p3Qdqwkb71kr4NFlml_");
 	color:black;
 	font-family: Serif;
 	font-size:20px; 
@@ -44,7 +43,7 @@ header{
 	margin-top: 10px;
 	padding: 5px;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px #B8860B;	
+	text-shadow: 2px 2px 8px black;
 }
 
  /* unvisited link */
@@ -55,7 +54,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: #363636;
+    color: White;
     text-decoration: none;
 }
 
