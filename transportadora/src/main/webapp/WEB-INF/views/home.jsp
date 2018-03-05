@@ -30,11 +30,4 @@
     </figure>
 </body>
 </html>
-
-
-
-
-
-
-
 <%@include file="/WEB-INF/architecture/footer.jsp" %>
