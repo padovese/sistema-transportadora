@@ -3,6 +3,8 @@
 body {
 	background-color:white;
 	margin:0;
+	color:#363636;
+	text-indent: 10px;
 }
 
 footer {
@@ -68,5 +70,17 @@ a:hover {
 a:active {
     color: #A9A9A9;
     text-decoration: none;
+    font-size:italic;
 } 
 
+figure{
+	background-color:#D3D3D3;
+	text-align:center; 
+	padding:10px;
+	border: 1px solid #ccc;
+}
+
+figcaption{
+	font-style: italic;
+	margin-top: 10px;
+}
