@@ -82,3 +82,8 @@ figcaption{
 	font-style: italic;
 	margin-top: 10px;
 }
+
+#map {
+    height: 300px;
+    width: 100%;
+}
