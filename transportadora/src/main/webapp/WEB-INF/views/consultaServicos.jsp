@@ -1,7 +1,4 @@
 <%@include file="/WEB-INF/architecture/header.jsp" %>
-
-Consulta de peças.
-
 <table>
 		<tr>
 			<th>Código</th>

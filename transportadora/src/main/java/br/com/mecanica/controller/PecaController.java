@@ -42,4 +42,6 @@ public class PecaController {
 		System.out.println("Acessando consultaPecas");
 		return mv;
 	}
+	
+	@RequestMapping("")
 }

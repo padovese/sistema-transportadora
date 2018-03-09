@@ -1,7 +1,13 @@
 <%@include file="/WEB-INF/architecture/header.jsp" %>
-
-Consulta de peças.
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Senna auto mecânica</title>
+</head>
+<body>
+	<p><b>Aqui abaixo estão listados todos as peças que trabalhamos:</b></p>		
+</body>
+</html>
 <table>
 		<tr>
 			<th>Código</th>
@@ -15,6 +21,5 @@ Consulta de peças.
 			</tr>
 		</c:forEach>
 	</table>
-
-
+	
 <%@include file="/WEB-INF/architecture/footer.jsp" %>

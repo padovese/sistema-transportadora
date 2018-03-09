@@ -1,12 +1,92 @@
 @charset "ISO-8859-1";
 
 body {
-	background-image:url("https://image.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg");
+	background-color:white;
+	margin:0;
+	color:#363636;
+	text-indent:15px;
 }
 
 footer {
 	color:white;
-	background-color: grey;
+	background-color:#B8860B;
 	text-align: center;
-	
+	padding: 10px;
+	width:100%;
+	font-style:italic;
+	font-size:14px;
+    bottom:0;
+    left:0;
 }
+
+#prefooter {
+	color:white;
+	background-color:#363636;
+    text-align: center;
+	padding: 20px;
+	width:100%;
+	font-style: italic;
+	font-size:12px;  
+}
+header{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqMMk6uJ6IjxP8OFdH_XuM9GM8_Mc7p3Qdqwkb71kr4NFlml_");
+}
+
+#preheader{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqMMk6uJ6IjxP8OFdH_XuM9GM8_Mc7p3Qdqwkb71kr4NFlml_");
+	color:black;
+	font-family: Serif;
+	font-size:20px; 
+	border-bottom: 2px solid #CDC8B1;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+	padding: 5px;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px black;
+}
+
+ /* unvisited link */
+a:link {
+	text-decoration: none;
+    color: #363636;
+}
+
+/* visited link */
+a:visited {
+    color: White;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #B8860B;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #A9A9A9;
+    text-decoration: none;
+    font-size:italic;
+} 
+
+figure{
+	background-color:#D3D3D3;
+	text-align:center; 
+	padding:10px;
+	border: 1px solid #ccc;
+}
+
+figcaption{
+	font-style: italic;
+	margin-top: 10px;
+}
+
+#map {
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
