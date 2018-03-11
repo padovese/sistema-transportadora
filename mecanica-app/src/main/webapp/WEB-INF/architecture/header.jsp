@@ -11,7 +11,7 @@
 <body>
 <header>
 	<a href="<%=request.getContextPath() %>/"><img src="http://www.sennaautomecanica.com.br/img/logo.png"></a>
-	<div id="preheader"> <a href="<%=request.getContextPath() %>/consulta-pecas">Produtos</a> &nbsp
+	<div id="preheader"> <a href="<%=request.getContextPath() %>/pecas/consulta">Produtos</a> &nbsp
 	<a href="<%=request.getContextPath() %>/consulta-servicos">Serviços</a> &nbsp 
 	<a href="<%=request.getContextPath() %>/consulta-funcionarios">Funcionarios</a>&nbsp </div>
 </header>

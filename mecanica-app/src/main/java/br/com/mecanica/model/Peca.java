@@ -2,7 +2,34 @@ package br.com.mecanica.model;
 
 public class Peca {
 	int id;
-	String name;
+	String nome;
+	String descricao;
+	String cor;
+	float preco;
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public String getCor() {
+		return cor;
+	}
+
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+
+	public float getPreco() {
+		return preco;
+	}
+
+	public void setPreco(float preco) {
+		this.preco = preco;
+	}
 
 	public int getId() {
 		return id;
@@ -12,12 +39,12 @@ public class Peca {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 }
