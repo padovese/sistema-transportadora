@@ -54,7 +54,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: White;
+    color: white;
     text-decoration: none;
 }
 
@@ -83,10 +83,74 @@ figcaption{
 	margin-top: 10px;
 }
 
-#map {
-    height: 300px;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+Table{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+	margin: 0 auto;
 }
 
+td, #pecas th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+ tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #ddd;
+	}
+	
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #363636;
+    color: white;
+}
+
+ /* unvisited link */
+#linkNovo:link {
+	background-color:#363636;
+	text-decoration: none;
+    color:white;  
+ 	font-weight: bold;
+ 	border: 1px solid #ddd;
+    padding: 8px;
+	margin: 0 auto;
+
+
+}
+
+/* visited link */
+#linkNovo:visited {
+    color: white;
+    text-decoration: none;
+ 	font-weight: bold;
+}
+
+/* mouse over link */
+#linkNovo:hover {
+    color: white;
+    text-decoration: none;
+ 	font-weight: bold;
+}
+
+/* selected link */
+#linkNovo:active {
+    color: #A9A9A9;
+    text-decoration: none;
+    font-size:italic;
+} 
+
+#preBotao{
+	width: 80%;
+	height: 40px;
+	margin: 0 auto;
+}
+
+#novoPeca{
+	float: right;
+}

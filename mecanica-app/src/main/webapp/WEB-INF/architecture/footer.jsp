@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style></style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: -23.511058, lng: -46.396049};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    
-    <script async defer
+
+	<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDfSU5oBEBY2bebjwlY940olel6-eymi0&callback=initMap">
     </script>
     
@@ -27,6 +7,6 @@
    		<p><i>Rua Redução do Loreto,25</i></p></div>
    		
 	<footer>Sistema Desenvolvido por <u>Patricia Próspero</u> e <u>Bruno Padovese</u></footer>
-	
-  </body>
+
+</body>
 </html>
