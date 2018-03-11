@@ -18,6 +18,7 @@ Consulta de peças.
 				<td>${funcionarios.cpf}</td>
 				<td>${funcionarios.dataDeNascimento}</td>
 				<td>${funcionarios.dataDeAdmissao}</td>
+				<td><a href="/mecanica-app/funcionarios/apaga?id=${funcionarios.id }">deletar</a></td>
 			</tr>
 		</c:forEach>
 	</table>

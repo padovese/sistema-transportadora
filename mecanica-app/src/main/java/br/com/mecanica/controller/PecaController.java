@@ -3,7 +3,10 @@ package br.com.mecanica.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -35,7 +38,13 @@ public class PecaController {
 	
 	//Recebe action do formulario. Cada text field vira um atributo do objeto pelo atributo name.
 	@RequestMapping("/pecas/cadastraPeca")
-	public ModelAndView efetivaCadastro(Peca peca) {
+	public ModelAndView efetivaCadastro(@Valid Peca peca, BindingResult result) {
+		
+		//BingResult faz a validação dos @Valid e informa se teve erro.
+		if(result.hasErrors()) {
+			System.out.println("Ocorreu erro de validacao de dados.");
+			return new ModelAndView("cadastraPeca");
+		}
 		
 		new PecasDAO().insere(peca);
 		

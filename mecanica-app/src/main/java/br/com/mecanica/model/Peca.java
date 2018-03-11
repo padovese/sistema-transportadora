@@ -1,10 +1,17 @@
 package br.com.mecanica.model;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Peca {
 	int id;
+	
+	@NotNull @Size(min=3)
 	String nome;
 	String descricao;
 	String cor;
+	
+	@NotNull
 	float preco;
 
 	public String getDescricao() {

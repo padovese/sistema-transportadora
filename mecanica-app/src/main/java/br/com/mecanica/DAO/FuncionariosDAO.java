@@ -81,7 +81,7 @@ private Connection connection;
 			throw new IllegalStateException("Id da conta nao deve ser nula.");
 		}
 
-		String sql = "delete from funcionario where id = ?";
+		String sql = "delete from funcionarios where id = ?";
 		PreparedStatement stmt;
 		try {
 			stmt = this.connection.prepareStatement(sql);

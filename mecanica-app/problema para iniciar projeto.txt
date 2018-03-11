@@ -1,0 +1,1 @@
+Ir em Facets e alterar o caminho para /src/main/webapp/
