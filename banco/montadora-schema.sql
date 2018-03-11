@@ -121,6 +121,30 @@ values('Fluído Para Freios', '500ml', null, null, 10.17);
 insert into pecas(nome, descricao, cor, serve_em_id_carro, preco)
 values('Insulfilm', 'G50', 'Verde', null, 189.75);
 
+-----
+
+drop table funcionarios;
+
+create table funcionarios(
+id int(6) not null auto_increment,
+nome varchar(50) not null,
+cpf bigint(11) not null,
+data_nascimento date not null,
+data_admissao date not null,
+primary key (id)
+);
+
+insert into funcionarios(nome, cpf, data_nascimento, data_admissao) 
+values('João da Silva', 12345678901, STR_TO_DATE('01/01/1980', '%d/%m/%Y'), STR_TO_DATE('10/05/2010', '%d/%m/%Y'));
+
+insert into funcionarios(nome, cpf, data_nascimento, data_admissao) 
+values('Cristopher White', 40511990707, STR_TO_DATE('01/01/1986', '%d/%m/%Y'), STR_TO_DATE('10/05/2014', '%d/%m/%Y'));
+
+insert into funcionarios(nome, cpf, data_nascimento, data_admissao) 
+values('Joseph Romeno', 9999999999, STR_TO_DATE('04/03/1971', '%d/%m/%Y'), STR_TO_DATE('10/05/2004', '%d/%m/%Y'));
+
+
 /*select * from montadoras;
 select * from carros;
-select * from pecas;*/
+select * from pecas;
+select * from funcionarios;*/

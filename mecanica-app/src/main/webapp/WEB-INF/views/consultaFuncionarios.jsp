@@ -14,7 +14,7 @@ Consulta de peças.
 		<c:forEach items="${todosFuncionarios}" var="funcionarios">
 			<tr>
 				<td>${funcionarios.id}</td>
-				<td>${funcionarios.name}</td>
+				<td>${funcionarios.nome}</td>
 				<td>${funcionarios.cpf}</td>
 				<td>${funcionarios.dataDeNascimento}</td>
 				<td>${funcionarios.dataDeAdmissao}</td>
