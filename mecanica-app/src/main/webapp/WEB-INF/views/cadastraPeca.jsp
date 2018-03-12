@@ -9,6 +9,6 @@
 	<input type="text" name="cor"><br><br>
 	<label>Preço</label><br>
 	<input type="text" name="preco"><form:errors path="peca.preco" /><br><br>
-	<input type="submit" value="Cadastra"><br>	
+	<input type="submit" value="Cadastra"><br>
 </form>
 <%@include file="/WEB-INF/architecture/footer.jsp" %>
