@@ -1,6 +1,5 @@
 package br.com.mecanica.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.validation.Valid;
@@ -40,9 +39,9 @@ public class PecaController {
 	@RequestMapping("/pecas/cadastraPeca")
 	public ModelAndView efetivaCadastro(@Valid Peca peca, BindingResult result) {
 		
-		//BingResult faz a validação dos @Valid e informa se teve erro.
+		//BingResult faz a validação dos Valid e informa se teve erro.
 		if(result.hasErrors()) {
-			System.out.println("Ocorreu erro de validacao de dados.");
+			System.out.println("Ocorreu erro de validacao de dados." + result.toString());
 			return new ModelAndView("cadastraPeca");
 		}
 		

@@ -4,15 +4,15 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class Peca {
-	int id;
 	
-	@NotNull @Size(min=3)
-	String nome;
-	String descricao;
-	String cor;
-	
+	private int id;
+	@NotNull 
+	@Size(min=3, message="{peca.formulario.nome.tamanho}")	
+	private String nome;
+	private String descricao;
+	private String cor;
 	@NotNull
-	float preco;
+	private float preco;
 
 	public String getDescricao() {
 		return descricao;

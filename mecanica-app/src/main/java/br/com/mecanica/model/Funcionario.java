@@ -9,10 +9,7 @@ import javax.validation.constraints.Size;
 public class Funcionario {
 
 	int id;
-	@NotNull
-	String nome;
-	@NotNull
-	@Size(min = 11, max = 11)
+	private String nome;
 	Long cpf;
 	LocalDate dataDeNascimento;
 	LocalDate dataDeAdmissao;
