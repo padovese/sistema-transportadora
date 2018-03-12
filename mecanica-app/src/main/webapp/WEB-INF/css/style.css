@@ -120,8 +120,6 @@ tr:hover {
  	border: 1px solid #ddd;
     padding: 8px;
 	margin: 0 auto;
-
-
 }
 
 /* visited link */
@@ -154,3 +152,19 @@ tr:hover {
 #novoPeca{
 	float: right;
 }
+
+form{
+	background-color:#363636;
+	color:white;
+	font-family: Serif;
+	font-size:15px; 
+	margin-left: 500px;
+    margin-right: 500px;
+	margin-top:50px;
+	padding: 20px;
+	font-weight: bold;
+	height: 100%;
+	margin-bottom:50px;
+	border-radius: 10px;
+}
+
