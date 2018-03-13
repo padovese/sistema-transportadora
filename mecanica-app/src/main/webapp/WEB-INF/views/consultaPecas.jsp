@@ -1,6 +1,17 @@
 <%@include file="/WEB-INF/architecture/header.jsp"%>
 
-<table>
+<script>
+function deuCerto(dadosDaResposta){
+	 location.reload(); 
+	//alert(dadosDaResposta);
+}
+
+function pagaAgora(id){
+	$.get("/mecanica-app/pecas/apaga?id=" + id, deuCerto);
+}
+</script>
+
+<table id="tbl">
 	<tr>
 		<th>Código</th>
 		<th>Nome</th>
@@ -17,7 +28,7 @@
 			<td>${pecas.descricao}</td>
 			<td>${pecas.cor}</td>
 			<td>${pecas.preco}</td>
-			<td><a href="/mecanica-app/pecas/apaga?id=${pecas.id }">Deletar</a></td>
+			<td><a href="#" onClick="pagaAgora(${pecas.id })">Deletar</a></td>
 		</tr>
 	</c:forEach>
 </table>

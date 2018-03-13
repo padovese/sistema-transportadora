@@ -2,6 +2,7 @@ package br.com.mecanica.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 import org.springframework.stereotype.Controller;
@@ -52,15 +53,14 @@ public class PecaController {
 	}
 	
 	@RequestMapping("/pecas/apaga")
-	public ModelAndView apaga(@RequestParam("id") int id) {
+	public void apaga(Peca peca, HttpServletResponse response) {
 		
-		Peca peca = new Peca();
-		peca.setId(id);
+//		Peca peca = new Peca();
+//		peca.setId(id);
 		
 		new PecasDAO().apaga(peca);
 		
-		ModelAndView mv = new ModelAndView("redirect:/pecas/consulta");
-		return mv;
+		response.setStatus(200);
 	}
 	
 }
