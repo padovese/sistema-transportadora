@@ -14,6 +14,15 @@
 			</tr>
 		</c:forEach>
 	</table>
+	
+	<br>
+		<div id="preBotao">
+			<div id="novoPeca">
+				<a id="linkNovo" href="<%=request.getContextPath()%>/servicos/cadastra">Novo</a>
+			</div>
+		</div>	
+	<br>
+	<br>
 
 
 <%@include file="/WEB-INF/architecture/footer.jsp" %>

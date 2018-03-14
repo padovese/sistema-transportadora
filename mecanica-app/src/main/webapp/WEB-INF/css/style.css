@@ -84,10 +84,11 @@ figcaption{
 }
 
 Table{
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: Serif;
     border-collapse: collapse;
     width: 80%;
 	margin: 0 auto;
+	text-align:center; 
 }
 
 td, #pecas th {
@@ -104,11 +105,12 @@ tr:hover {
 	}
 	
  th {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     text-align: left;
     background-color: #363636;
     color: white;
+    text-align:center; 
 }
 
  /* unvisited link */
@@ -156,20 +158,44 @@ tr:hover {
 form{
 	background-color:#363636;
 	color:white;
-	font-family: Serif;
+	font-family:Serif;
 	font-size:15px; 
-	margin-left: 500px;
-    margin-right: 500px;
+	margin-left:500px;
+    margin-right:500px;
 	margin-top:50px;
 	padding: 20px;
 	font-weight: bold;
 	height: 100%;
 	margin-bottom:50px;
-	border-radius: 10px;
+	border-radius:10px;
 }
 
 #pecaAdionada{
 	color: #363636;
 	font-weight: bold;
-	
+}
+
+input[type=submit]{
+	font-family:Serif;
+	font-size:15px; 
+	font-weight: bold;
+	-ms-transform: scale(2); 
+	-moz-transform: scale(2);
+	-webkit-transform: scale(1);
+	height: 25px;
+	width: 100%;
+}
+
+input[type=text]{
+	font-family:Serif;
+	font-size:15px; 
+	-ms-transform:scale(2);
+	-moz-transform:scale(2);
+	-webkit-transform:scale(1);
+	height:20px;
+	width:100%;
+}
+
+a[href="#"]{
+	color: #363636;
 }
